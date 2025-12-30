@@ -1,31 +1,57 @@
-/*  your css code here. If applicable */
-.main{
-	
-	background-color:#f5f5f5;
-	padding:5px;
-}
-.main2{
-	display:flex;
-	gap:20px;
-	padding-top:5px;
+/* Body background color */
+body{
+  background-color:#f5f5f5;
+  font-family: Arial, sans-serif;
 }
 
+/* HEADER */
+.header{
+  background-color:#011e29;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+
+/* MAIN WRAPPER */
+.main{
+  padding:20px;
+}
+
+/* FLEX LAYOUT */
+.content{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+}
+
+/* LATEST NEWS */
 .latest-news-section{
-	height:100%;
-	background-color:white;
-	padding:15px;
-	border-radius:20px;
+  background:white;
+  width:220px;
+  padding:15px;
+  border-radius:20px;
 }
+
+/* MAIN ARTICLE */
 .article{
-	height:100%;
-	background-color:white;
-	padding:15px;
-	border-radius:20px;
+  background:white;
+  width:420px;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
 }
+
+/* PICTORIAL NEWS */
 .pictorial-news-section{
-	height:100%;
-	background-color:white;
-	padding:15px;
-	border-radius:20px;
-	
+  background:white;
+  width:220px;
+  padding:15px;
+  border-radius:20px;
+  text-align:center;
+}
+
+.pictorial-news-section img{
+  width:170px;
+  margin:10px 0;
+  border-radius:10px;
 }
